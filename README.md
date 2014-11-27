@@ -9,6 +9,9 @@ Starting point to contribute to the development of monicore.
 * install [virtualbox](https://www.virtualbox.org/wiki/Downloads)
 * install [vagrant](http://www.vagrantup.com/downloads.html)
 * install this repository on your computer (git clone or download)
+```Shell
+git clone https://github.com/playgrunge/monicore-vagrant.git
+```
 * create the data directory
 ```Shell
 mkdir data
