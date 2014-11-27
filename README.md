@@ -9,11 +9,19 @@ Starting point to contribute to the development of monicore.
 * install [virtualbox](https://www.virtualbox.org/wiki/Downloads)
 * install [vagrant](http://www.vagrantup.com/downloads.html)
 * install this repository on your computer (git clone or download)
-
+* create the data directory
 ```Shell
 mkdir data
 ```
-
+* launch vagrant
 ```Shell
 vagrant up
+```
+* connect to the vm
+```Shell
+ssh vagrant@192.171.0.120
+```
+or
+```Shell
+putty vagrant@192.171.0.120
 ```
