@@ -12,10 +12,6 @@ Starting point to contribute to the development of monicore.
 ```Shell
 git clone https://github.com/playgrunge/monicore-vagrant.git
 ```
-* create the data directory
-```Shell
-mkdir data
-```
 * launch vagrant
 ```Shell
 vagrant up
