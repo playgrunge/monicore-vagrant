@@ -3,6 +3,7 @@ Vagrant.configure("2") do |config|
   # Every Vagrant virtual environment requires a box to build off of.
   config.vm.box = "hashicorp/precise64"
   #config.vm.box = "raring64"
+  config.vm.hostname = "monicore"
 
   config.ssh.forward_agent = true
   config.ssh.forward_x11 = true
