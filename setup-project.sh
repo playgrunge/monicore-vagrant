@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
-mkdir /home/vagrant/gocode
-export GOPATH=/home/vagrant/gocode
-export PATH=$PATH:$GOPATH/bin
+echo "export GOPATH=/home/vagrant/gocode" >> ~/.profile
+echo "export PATH=$PATH:/home/vagrant/gocode/bin" >> ~/.profile
+. ~/.profile
+
+mkdir ~/gocode
 go get "github.com/gorilla/mux"
 go get "github.com/codegangsta/gin"
 mkdir -p $GOPATH/src/github.com/playgrunge
