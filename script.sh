@@ -10,7 +10,3 @@ sudo add-apt-repository -y ppa:webupd8team/sublime-text-3
 sudo apt-get update -qq
 sudo apt-get install -q -y git golang 
 sudo apt-get install -q -y libgtk2.0-0 sublime-text-installer
-
-su vagrant << EOF
-/vagrant/setup-project.sh
-EOF
