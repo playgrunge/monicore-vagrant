@@ -10,3 +10,11 @@ sudo add-apt-repository -y ppa:webupd8team/sublime-text-3
 sudo apt-get update -qq
 sudo apt-get install -q -y git golang 
 sudo apt-get install -q -y libgtk2.0-0 sublime-text-installer
+
+sudo apt-get install -q -y curl
+curl -sL https://deb.nodesource.com/setup | sudo bash -
+sudo apt-get install -q -y nodejs
+sudo apt-get install -q -y build-essential
+
+sudo npm install -g ember-cli@0.1.4
+sudo npm install -g bower

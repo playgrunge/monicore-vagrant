@@ -16,6 +16,10 @@ end
   config.vm.network "public_network", type: "dhcp"         #eth1
   config.vm.network "private_network", ip: "192.171.0.120" #eth2
 
+  #ports used for the server test with ember
+  config.vm.network "forwarded_port", guest: 4200, host: 4200
+  config.vm.network "forwarded_port", guest: 35729, host: 35729
+
   config.vm.provision "shell", path: "script.sh"
 
   config.vm.provision "shell", path: "setup-project.sh", privileged: false
