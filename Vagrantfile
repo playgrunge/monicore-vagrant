@@ -19,6 +19,7 @@ end
   #ports used for the server test with ember
   config.vm.network "forwarded_port", guest: 4200, host: 4200
   config.vm.network "forwarded_port", guest: 35729, host: 35729
+  
 
   config.vm.provision "shell", path: "script.sh"
 
