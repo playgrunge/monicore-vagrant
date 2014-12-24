@@ -6,6 +6,7 @@ echo "export PATH=$PATH:/home/vagrant/gocode/bin" >> ~/.profile
 mkdir -p ~/gocode
 go get "github.com/gorilla/mux"
 go get "github.com/codegangsta/gin"
+go get "github.com/gorilla/websocket"
 mkdir -p $GOPATH/src/github.com/playgrunge
 git clone https://github.com/playgrunge/monicore.git $GOPATH/src/github.com/playgrunge/monicore
 
