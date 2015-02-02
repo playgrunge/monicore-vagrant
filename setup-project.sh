@@ -15,6 +15,7 @@ go get "github.com/codegangsta/gin"
 go get "github.com/gorilla/websocket"
 go get "gopkg.in/mgo.v2"
 go get "github.com/PuerkitoBio/goquery"
+go get "github.com/kurrik/twittergo"
 mkdir -p $GOPATH/src/github.com/playgrunge
 git clone https://github.com/playgrunge/monicore.git $GOPATH/src/github.com/playgrunge/monicore
 
